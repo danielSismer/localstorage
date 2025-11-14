@@ -1,0 +1,81 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: antiquewhite;
+
+}
+
+label{
+
+    color:wheat;
+    font-size: 2rem;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+}
+
+#header p{
+    font-size: 2rem;
+}
+
+#header img{
+    width:70px;
+}
+
+#Login{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 40rem;
+    background-color: rgb(94, 51, 0);
+    border-radius: 10px;
+}
+
+#Login h2{
+    font-size: 3rem;
+    color:wheat
+    
+}
+
+#email{
+    display: flex;
+    font-size: 20px;
+}
+
+#password{
+    font-size: 20px;
+}
+
+#acesso{
+    display: flex;
+    margin-left: 70vw ;   
+    padding-left: 2rem;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 90, 58);
+    gap: 2rem;
+    color: aliceblue;
+}   
+
+#acesso p {
+    font-size: 2rem;
+}
+
+#logar-button{
+    background-color: #fff;
+    padding: 0.75rem 2rem;
+ }
