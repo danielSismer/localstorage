@@ -85,7 +85,6 @@ label {
 
     #header {
         flex-direction: column;
-        /* Empilha os itens do cabeçalho */
         padding: 1rem 0;
     }
 
@@ -95,28 +94,23 @@ label {
 
     #header p {
         font-size: 1rem;
-        /* Diminui o texto da data */
     }
 
     #header img {
         width: 40px;
-        /* Diminui o ícone */
     }
 
     #Login {
         margin: 3rem 5%;
-        /* Diminui a margem vertical e usa porcentagem para horizontal */
         padding: 1rem;
     }
 
     #Login h2 {
         font-size: 2rem;
-        /* Diminui o título do Login */
     }
 
     label {
         font-size: 1.2rem;
-        /* Diminui o tamanho das labels */
     }
 
     #email,
@@ -126,11 +120,9 @@ label {
 
     #acesso {
         width: 90%;
-        /* Usa mais largura para telas pequenas */
         margin-top: 2rem;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* Espaço entre título e número */
     }
 
     #acesso h1 {
