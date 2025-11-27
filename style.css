@@ -40,7 +40,6 @@ label {
     margin: 5rem auto;
     width: 90%;
     max-width: 500px;
-    /* Limita o tamanho em telas grandes */
     background-color: rgb(94, 51, 0);
     border-radius: 10px;
 }
