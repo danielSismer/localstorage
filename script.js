@@ -10,7 +10,7 @@ logar.addEventListener('click', () => {
 
     if (emailStorage == email.value && passwordStorage === password.value) {
         alert("Bem vindo!!!")
-        acessos.innerHTML = acessos.innerHTML + 1;
+        acessos.innerHTML = parseInt(acessos.innerHTML) + 1;
     } else {
         alert("Usuário não encontrado")
     }

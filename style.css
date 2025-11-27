@@ -1,9 +1,9 @@
-*{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
-body{
+body {
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,13 +11,12 @@ body{
 
 }
 
-label{
-
-    color:wheat;
+label {
+    color: wheat;
     font-size: 2rem;
 }
 
-#header{
+#header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,57 +24,120 @@ label{
     color: rgb(0, 0, 0);
 }
 
-#header p{
+#header p {
     font-size: 2rem;
 }
 
-#header img{
-    width:70px;
+#header img {
+    width: 70px;
 }
 
-#Login{
-
+#Login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10rem 40rem;
+    margin: 5rem auto;
+    width: 90%;
+    max-width: 500px;
+    /* Limita o tamanho em telas grandes */
     background-color: rgb(94, 51, 0);
     border-radius: 10px;
 }
 
-#Login h2{
+#Login h2 {
     font-size: 3rem;
-    color:wheat
-    
+    color: wheat
 }
 
-#email{
+#email {
     display: flex;
     font-size: 20px;
 }
 
-#password{
+#password {
     font-size: 20px;
 }
 
-#acesso{
+#acesso {
     display: flex;
-    margin-left: 70vw ;   
-    padding-left: 2rem;
+    margin: 2rem auto;
+    width: fit-content;
+    padding: 1rem 2rem;
     font-size: 1rem;
     align-items: center;
     justify-content: center;
     background-color: rgb(107, 90, 58);
     gap: 2rem;
     color: aliceblue;
-}   
+}
 
 #acesso p {
     font-size: 2rem;
 }
 
-#logar-button{
+#logar-button {
     background-color: #fff;
     padding: 0.75rem 2rem;
- }
+}
+
+@media (max-width: 768px) {
+
+    #header {
+        flex-direction: column;
+        /* Empilha os itens do cabeçalho */
+        padding: 1rem 0;
+    }
+
+    #header h1 {
+        font-size: 1.5rem;
+    }
+
+    #header p {
+        font-size: 1rem;
+        /* Diminui o texto da data */
+    }
+
+    #header img {
+        width: 40px;
+        /* Diminui o ícone */
+    }
+
+    #Login {
+        margin: 3rem 5%;
+        /* Diminui a margem vertical e usa porcentagem para horizontal */
+        padding: 1rem;
+    }
+
+    #Login h2 {
+        font-size: 2rem;
+        /* Diminui o título do Login */
+    }
+
+    label {
+        font-size: 1.2rem;
+        /* Diminui o tamanho das labels */
+    }
+
+    #email,
+    #password {
+        font-size: 16px;
+    }
+
+    #acesso {
+        width: 90%;
+        /* Usa mais largura para telas pequenas */
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* Espaço entre título e número */
+    }
+
+    #acesso h1 {
+        font-size: 1.1rem;
+    }
+
+    #acesso p {
+        font-size: 1.5rem;
+    }
+}
