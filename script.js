@@ -24,7 +24,7 @@ buttonMode.addEventListener("click", () => {
 
     if (dark) {
 
-        document.body.style.backgroundColor = "white";
+        document.body.style.backgroundColor = "#2a1506";
 
         document.querySelector("#header").style.background = 
             "linear-gradient(to bottom, #5a3d34, #3a2822)";
